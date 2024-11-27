@@ -61,7 +61,7 @@ export default function Home(): JSX.Element {
                                         <span>
                     <a
                         className="text-slate-500 hover:text-rose-300 ease-in duration-300"
-                        href="documents/cv_english_lisanne-lin.pdf"
+                        href="static/cv_english_lisanne-lin.pdf"
                     >
                       Resume
                     </a>
