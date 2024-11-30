@@ -39,4 +39,5 @@ I created the profile page for the project. It displays the user information, al
 
 -   I have learned how to work with Vue.js. It's a pretty fun framework and I could see myself using it again on other web-projects
 
--   I need to improve my time management skills since my poor time management has resulted in me not contributing as much to the project as I had hoped to.
+-   I need to improve my time management skills since my poor time management has resulted in me not contributing as
+    much to the project as I had hoped to.

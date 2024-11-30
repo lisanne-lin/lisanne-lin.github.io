@@ -10,7 +10,11 @@ tag_color: "#FF5656"
 
 An android app to find your favorite Pokemon!
 
-(still under construction)
+# The project
+
+## App features
+
+## What I learned
 
 ---
 
