@@ -89,26 +89,26 @@ export default function Home(): JSX.Element {
                         path: "docs/projects/chaero",
                         bgColor: "bg-orange-100",
                         tagColor: "bg-orange-300",
-                        tagTextColor:"text-orange-900",
+                        tagTextColor: "text-orange-900",
                         img: "/img/docs/chaero/chaero-app.png"
                     },
                     {
                         title: "IoT Power!",
-                        tags: ["CPP","Embedded", "Nuxt.js", "Internet of Things"],
+                        tags: ["CPP", "Embedded", "Nuxt.js", "Internet of Things"],
                         path: "docs/projects/iot-power",
                         bgColor: "bg-blue-100",
                         tagColor: "bg-blue-300",
-                        tagTextColor:"text-blue-900",
+                        tagTextColor: "text-blue-900",
                         img: "/img/docs/iot-power/thumbnail.png"
                     }, {
-                        title: "SmartShip",
-                        tags: ["HTML","CSS", "Vue.js", "Spring", "Java", "MySQL"],
-                        path: "docs/projects/smartship",
-                        bgColor: "bg-cyan-100",
-                        tagColor: "bg-cyan-300",
-                        tagTextColor:"text-cyan-900",
-                        img: "/img/docs/smartship/smartship_dashboard.png"
-                    },
+                    title: "SmartShip",
+                    tags: ["HTML", "CSS", "Vue.js", "Spring", "Java", "MySQL"],
+                    path: "docs/projects/smartship",
+                    bgColor: "bg-cyan-100",
+                    tagColor: "bg-cyan-300",
+                    tagTextColor: "text-cyan-900",
+                    img: "/img/docs/smartship/smartship_dashboard.png"
+                },
                 ]
             }/>
         </Layout>

@@ -19,8 +19,8 @@ export default function HanziChars() {
     const char2 = useRef()
 
     useEffect(() => {
-        const char1Writer = charWriter(char1.current, "慧" )
-        const char2Writer = charWriter(char2.current, "琴" )
+        const char1Writer = charWriter(char1.current, "慧")
+        const char2Writer = charWriter(char2.current, "琴")
         char1Writer.animateCharacter({
             onComplete: function () {
                 setTimeout(function () {
@@ -30,7 +30,7 @@ export default function HanziChars() {
         });
     })
 
-    return <div>
+    return <div className="flex flex-row z-40 absolute">
         <span ref={char1}></span>
         <span ref={char2}></span>
     </div>
