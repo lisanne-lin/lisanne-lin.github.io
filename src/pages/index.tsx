@@ -93,15 +93,6 @@ export default function Home(): JSX.Element {
                         img: "/img/docs/chaero/chaero-app.png"
                     },
                     {
-                        title: "Pokedex",
-                        tags: ["Kotlin", "Jetpack Compose", "PokeAPI"],
-                        path: "docs/projects/pokedex",
-                        bgColor: "bg-red-100",
-                        tagColor: "bg-red-300",
-                        tagTextColor:"text-red-900",
-                        img: "/img/docs/pokedex/pokedex.png"
-                    },
-                    {
                         title: "IoT Power!",
                         tags: ["CPP","Embedded", "Nuxt.js", "Internet of Things"],
                         path: "docs/projects/iot-power",
