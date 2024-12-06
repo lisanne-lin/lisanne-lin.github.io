@@ -102,6 +102,14 @@ export default function Home(): JSX.Element {
                         img: "/img/docs/pokedex/pokedex.png"
                     },
                     {
+                        title: "IoT Power!",
+                        tags: ["CPP","Embedded", "Nuxt.js", "Internet of Things"],
+                        path: "docs/projects/iot-power",
+                        bgColor: "bg-blue-100",
+                        tagColor: "bg-blue-300",
+                        tagTextColor:"text-blue-900",
+                        img: "/img/docs/iot-power/thumbnail.png"
+                    }, {
                         title: "SmartShip",
                         tags: ["HTML","CSS", "Vue.js", "Spring", "Java", "MySQL"],
                         path: "docs/projects/smartship",
