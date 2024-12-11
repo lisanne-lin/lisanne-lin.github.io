@@ -32,11 +32,11 @@ export default function Projects({ projects }: ProjectsProps) {
                     <h3 className="font-bold text-2xl text-slate-800 mb-4">
                         {project.title}
                     </h3>
-                    <div className="space-x-2 font-bold">
+                    <div className="font-bold flex gap-2 flex-wrap">
                         {project.tags.map((tag) => (
                             <span
                                 key={tag}
-                                className={`p-2 rounded-xl ${project.tagColor} ${project.tagTextColor}`}
+                                className={`p-2 rounded-xl inline-block w-fit ${project.tagColor} ${project.tagTextColor}`}
                             >
                 {tag}
               </span>
